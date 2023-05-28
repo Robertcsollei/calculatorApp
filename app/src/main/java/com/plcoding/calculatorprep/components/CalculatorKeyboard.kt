@@ -9,8 +9,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
-import com.plcoding.calculatorprep.CalculatorAction
-import com.plcoding.calculatorprep.CalculatorOperation
+import com.plcoding.calculatorprep.interfaces.CalculatorAction
+import com.plcoding.calculatorprep.interfaces.CalculatorOperation
 import com.plcoding.calculatorprep.ui.theme.LightGray
 import com.plcoding.calculatorprep.ui.theme.Orange
 

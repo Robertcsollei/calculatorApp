@@ -11,6 +11,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.plcoding.calculatorprep.components.CalculatorDisplay
 import com.plcoding.calculatorprep.components.CalculatorKeyboard
+import com.plcoding.calculatorprep.interfaces.CalculatorAction
+import com.plcoding.calculatorprep.interfaces.CalculatorState
 
 @Composable
 fun Calculator(

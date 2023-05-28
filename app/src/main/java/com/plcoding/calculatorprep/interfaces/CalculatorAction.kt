@@ -1,4 +1,4 @@
-package com.plcoding.calculatorprep
+package com.plcoding.calculatorprep.interfaces
 
 sealed class CalculatorAction {
     data class Number(val number: Int) : CalculatorAction();
