@@ -1,4 +1,4 @@
-package com.plcoding.calculatorprep
+package com.plcoding.calculatorprep.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -16,7 +16,7 @@ fun CalculatorButton(
     symbol: String,
     modifier: Modifier,
     onClick: () -> Unit
-    ) {
+) {
 
     return Box(
         contentAlignment = Alignment.Center,
@@ -24,7 +24,7 @@ fun CalculatorButton(
             .clip(CircleShape)
             .clickable { onClick() }
             .then(modifier)
-    ){
+    ) {
         Text(
             text = symbol,
             fontSize = 36.sp,
